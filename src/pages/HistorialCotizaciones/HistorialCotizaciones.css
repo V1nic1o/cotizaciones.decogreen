@@ -54,10 +54,16 @@ h2 {
   border-radius: 16px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
   font-size: 1rem;
+  max-height: 350px;               /* Limita la altura */
+  overflow-y: auto;                /* Scroll si es muy alta */
 }
 
 .card-cotizacion p {
   margin: 0.4rem 0;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: pre-wrap;          /* Preserva saltos de línea */
+  max-width: 100%;
 }
 
 .card-cotizacion select {
@@ -115,11 +121,4 @@ h2 {
   padding: 0.75rem 1rem;
   font-size: 1.2rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-}
-
-.card-cotizacion p {
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-  white-space: pre-wrap;
-  max-width: 100%;
 }
