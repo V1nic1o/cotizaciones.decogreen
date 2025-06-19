@@ -1,0 +1,20 @@
+# Dependencias
+node_modules/
+
+# Build generado
+build/
+
+# Archivos de sistema
+.DS_Store
+
+# Archivos temporales
+*.log
+npm-debug.log*
+
+# Archivos de desarrollo de testing
+coverage/
+.env
+
+# Editor
+.vscode/
+.idea/

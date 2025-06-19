@@ -1,0 +1,23 @@
+{
+  "short_name": "Cotizador",
+  "name": "Sistema de Cotizaciones DECOGREEN",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#2d6a4f",
+  "background_color": "#ffffff",
+  "orientation": "portrait",
+  "scope": "/",
+  "description": "Sistema profesional para generar cotizaciones de decogreen"
+}
