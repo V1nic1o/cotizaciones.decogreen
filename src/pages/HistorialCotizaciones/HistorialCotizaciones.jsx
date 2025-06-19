@@ -116,9 +116,7 @@ export default function HistorialCotizaciones() {
             <p><strong>Fecha:</strong> {new Date(c.fecha).toLocaleDateString()}</p>
             <p><strong>Total:</strong> Q{c.total}</p>
 
-            {c.observaciones && (
-              <p><strong>Observaciones:</strong> {c.observaciones}</p>
-            )}
+            {/* Observaciones removidas del historial visual */}
 
             <p><strong>Estado:</strong></p>
             <select
